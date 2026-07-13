@@ -56,7 +56,7 @@
     "figlet": "^1.7.0",
     "generate-password": "^1.7.1",
     "giphy-api": "^2.0.2",
-    "groq-sdk": "^0.7.0",
+    "groq-sdk": "^1.3.0",
     "he": "^1.2.0",
     "html-entities": "^2.5.2",
     "is-hexcolor": "^1.0.0",
