@@ -76,8 +76,9 @@ module.exports = (client) => {
 
     client.on(Discord.Events.ClientReady, async () => {
        client.startStream(process.env.RADIO ??  radio)
-        
-        Schema.find(async (err, data) => {
+
+        try {
+            const data = await Schema.find();
             if (data) {
                 for (var i = 0; i < data.length; i++) {
                     try {
@@ -90,8 +91,8 @@ module.exports = (client) => {
                     catch { }
                 }
             }
-        })
+        } catch (err) {
+            console.error(err);
+        }
     });
 }
-
- 
