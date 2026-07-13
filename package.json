@@ -30,7 +30,7 @@
     "node": ">=18.0.0 <21.0.0"
   },
   "overrides": {
-    "undici": "^5.28.4"
+    "undici": "^8.7.0"
   },
   "dependencies": {
     "@discordjs/voice": "^0.16.1",
@@ -76,7 +76,7 @@
     "pro.db": "^3.0.8",
     "sourcebin": "^5.0.0",
     "topgg-autoposter": "^2.0.1",
-    "undici": "^5.28.4",
+    "undici": "^8.7.0",
     "weather-js": "^2.0.0",
     "ytdl-core": "^4.11.5"
   }
